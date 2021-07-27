@@ -5,31 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTA CATEGORIA</title>
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <a href="Tela_Menu.html">Voltar Menu</a><br/>
-    <hr>
-    <thead>
-        <tr>
-            <b><th>Id</th>
-            <th>Nome</th>
-            <th>Valor</th></b>
-        </tr><br/>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Boné</td>
-            <td>R$10,00</td>
-        </tr><br/>
-        <tr>
-            <td>2</td>
-            <td>Oculos</td>
-            <td>R$18,00</td>
-        </tr><br/>
-    </tbody>
-</table>
-    
+<header>
+    <div id="logo">
+        <a href="Tela_Menu.html">
+            <img src="havan labs.png" alt="Logo Jornada Labs"><br/></a>
+    </div>
+    <nav id="menu-principal">
+        <div>
+            <a href="Tela_Cadastro_Categoria.html" id="cadastro">CadastroCategoria</a>
+        </div>
+        <div>
+            <a href="Tela_Lista_Categoria.html" id="lista">ListaCategoria</a>
+        </div>
+    </nav>
+        <div id="menu-usuario">
+            <a href="">
+                <img src="Sinhuu.jpg" id= "sinhu" alt="Imagem usuario" title="Imagem de usuário">
+            </a>
+        </div>
+</header>
 
+<main>
+    <div class="cabecalho-crud">
+        <h1>Categorias</h1>
+        <a class="botao-principal" href="Tela_Cadastro_Categoria.html">Novo</a>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vestuario</td>
+                <td class="opcoes">
+                    <a class="editar" href="">Editar</a> |
+                    <a class="excluir" href="">Excluir</a> 
+                </td>
+            </tr>
+                <tr>
+                <td>2</td>
+                <td>Casa</td>
+                <td class="opcoes">
+                    <a class="editar" href="">Editar</a> |
+                    <a class="excluir" href="">Excluir</a> 
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Banho</td>
+                <td class="opcoes">
+                    <a class="editar" href="">Editar</a> |
+                    <a class="excluir" href="">Excluir</a> 
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Carro</td>
+                <td class="opcoes">
+                    <a class="editar" href="">Editar</a> |
+                    <a class="excluir" href="">Excluir</a> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </main>
+<footer>
+        <h4>Todos os direitos reservados <br /> &copy; Havan Labs</h4>
+    </footer>
 </body>
 </html>

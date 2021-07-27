@@ -1,0 +1,104 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0;
+}
+nav{
+    font-weight: bold;
+    display: inline-flex;
+}
+#sinhu{
+    width: 175px;
+    border-radius: 100px;
+}
+#cadastro{
+  
+    background: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+#cadastro:hover{
+    background: #000266;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+}
+
+#lista{
+    margin-left: 0;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+#lista:hover{
+    background: #000266;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+}
+.cabecalho-crud{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+.cabecalho-crud a{
+    background: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.cabecalho-crud a:hover{
+    background: #000266;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+}
+body {
+    background: #ccc;
+}
+input[type= "text"], input[type="number"]{
+    background: #ccc;
+    border-radius: 30px;
+}
+main{
+    margin:auto;
+    margin-top: 20px;
+    background: white;
+    width: 50%;
+}
+
+table{
+    
+    text-align-last: center;
+    margin: auto;
+    width: 90%;
+    border: #000266 1px solid;
+}
+table tbody tr td{
+    margin: 0;
+    padding: 0;
+    border: #000266 1px solid;
+    border-radius: 5px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+footer h4{
+    text-align: center;
+    color: #000266;
+    margin-top: 30px;
+}
