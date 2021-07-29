@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bandas</h1>
+    <label for="id">Id: </label> <input type="number" name="id" id="id"><br />
+    <label for="nome">Nome: </label> <input type="text" name="nome" id="nome"><br />
+    <label for="genero">Gênero Musical: </label> <input type="text" name="genero" id="genero"><br />
+    <label for="pais">País: </label> <input type="text" name="pais" id="pais"><br />
+    <label for="integrantes">Integrantes: </label> <input type="number" name="integrantes" id="integrantes"><br />
+    <button onclick="salvar()">Salvar</button>
+
+    <div>
+        <table id="bandas">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Genero</th>
+                    <th>País</th>
+                    <th>Integrantes</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/crud.js"></script>
+</body>
+</html>
